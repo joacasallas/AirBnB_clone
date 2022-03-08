@@ -1,7 +1,5 @@
 #!/usr/bin/python3
 """A module containing the file storage engine.
-#!/usr/bin/python3
-"""A module containing the file storage engine.
 """
 import os
 from importlib import import_module
