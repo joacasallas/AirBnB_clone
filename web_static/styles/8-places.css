@@ -21,7 +21,7 @@
     border: #FF5A5F 1px solid;
     border-radius: 4px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
 .places > article > h2 {
@@ -35,6 +35,7 @@
     height: 60px;
     font-size: 30px;
     padding-right: 10px;
+    padding-left: auto;
     padding-top: 10px;
 }
 
