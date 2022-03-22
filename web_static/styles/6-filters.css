@@ -61,7 +61,7 @@ button:hover{
 }
 
 .locations > .popover {
-    /*display: none;*/
+    display: none;
     position: relative;
     left: -51px;
     background-color: #FAFAFA;
