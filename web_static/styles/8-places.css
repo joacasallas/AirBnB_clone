@@ -26,6 +26,7 @@
 
 .places > article > h2 {
     font-size: 30px;
+    align-self: center;
 }
 
 .price_by_night{
@@ -34,9 +35,6 @@
     min-width: 60px;
     height: 60px;
     font-size: 30px;
-    padding-right: 10px;
-    padding-left: auto;
-    padding-top: 10px;
 }
 
 .information{
@@ -44,6 +42,8 @@
     border-top: #DDDDDD 1px solid;
     border-bottom: #DDDDDD 1px solid;
     align-items: center;
+    display: flex;
+    
 }
 
 .max_guest{
