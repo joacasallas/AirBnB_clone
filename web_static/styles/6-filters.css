@@ -60,20 +60,7 @@ button:hover{
     margin: 0 0 5px 0;
 }
 
-.locations > .popover {
-    display: none;
-    position: relative;
-    left: -51px;
-    background-color: #FAFAFA;
-    width: 100%;
-    border: #DDDDDD 1px solid;
-    border-radius: 4px;
-    z-index: 1;
-    padding: 30px 50px 30px 0;
-    margin-top: 17px;
-}
-
-.amenities > .popover {
+.popover {
     display: none;
     position: relative;
     left: -51px;
@@ -98,22 +85,16 @@ button:hover{
     display: block;
 }
 
-.popover h2 {
-    margin-top: 0px;
-    margin-bottom: 5px;
+.popover > li > h2 {
+    font-size: 16px;
+    padding-left: 5px;
+    margin-bottom: 0px;
 }
 
-.amenities > ul > li{
-    font-size: 16px;
+.amenities > .popover > li {
     padding-left: 50px;
 }
 
-.locations > ul > li{
-    font-size: 16px;
-    padding-left: 10px;
-}
-
-ul > li >  h2{
-    font-size: 18px;
+.locations > .popover > li {
     padding-left: 10px;
 }
