@@ -125,14 +125,8 @@
 
 .reviews > ul > li > h3{
     font-size: 14px;
-    margin-bottom: 0px;
 }
 
 .reviews > ul > li > h3 > p{
     font-size: 12px;
-}
-
-.icon_pets, .icon_tv, .icon_wifi {
-    height: 50px;
-    width: 50px;
 }
