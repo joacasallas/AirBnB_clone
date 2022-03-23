@@ -101,8 +101,14 @@
     padding-bottom: 10px;
 }
 
-.amenities > ul, .reviews > ul{
+.amenities > ul{
     list-style-type: none;
+    padding-left: 50px;
+}
+
+.reviews > ul{
+    list-style-type: none;
+    padding-left: 0px;
 }
 
 .img_tv{
