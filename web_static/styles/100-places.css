@@ -72,7 +72,6 @@
 }
 
 .img_guest, .img_bed, .img_bath {
-    background: url("../images/icon_group.png") no-repeat center;
     margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -81,15 +80,15 @@
 }
 
 .img_guest{
-    background: url("../images/icon_group.png") no-repeat center;
+    background: url("../images/icon_group.png");
 }
 
 .img_bed{
-    background: url("../images/icon_bed.png") no-repeat center;
+    background: url("../images/icon_bed.png");
 }
 
 .img_bath{
-    background: url("../images/icon_bath.png") no-repeat center;
+    background: url("../images/icon_bath.png");
 }
 
 .places > .amenities, .places > .reviews{
@@ -99,8 +98,26 @@
 .amenities > h2, .reviews > h2{
     font-size: 16px;
     border-bottom: #DDDDDD 1px solid;
+    padding-bottom: 10px;
 }
 
-.amenities > ul, .reviews > ul{
+.places > .amenities > ul, .reviews > ul{
     list-style-type: none;
+}
+
+.icon_pets, .icon_tv, .icon_wifi {
+    height: 50px;
+    width: 50px;
+}
+
+.icon_pets{
+    background: url("../images/icon_pets.png");
+}
+
+.icon_tv{
+    background: url("../images/icon_tv.png");
+}
+
+.icon_wifi{
+    background: url("../images/icon_wifi.png");
 }
