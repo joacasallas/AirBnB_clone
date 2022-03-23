@@ -106,8 +106,6 @@
     padding-left: 50px;
 }
 
-
-
 .reviews > ul{
     list-style-type: none;
     padding-left: 0px;
@@ -126,12 +124,10 @@
     list-style-image: url('../images/icon_wifi.png');
 }
 
-.reviews ul li h3 {
+.reviews > ul > li > h3{
     font-size: 14px;
-    margin: 0;
 }
-.reviews ul li p {
+
+.reviews > ul > li > h3 > p{
     font-size: 12px;
-    margin: 0;
-    padding-bottom: 10px
 }
