@@ -106,9 +106,8 @@
     padding-left: 50px;
 }
 
-
-
 .reviews > ul{
+    display: list-item;
     list-style-type: none;
     padding-left: 0px;
 }
@@ -117,13 +116,12 @@
     list-style-image: url('../images/icon_tv.png');
 }
 
-.img_pet{
-    list-style-image: url('../images/icon_pets.png');
-    
-}
-
 .img_wifi{
     list-style-image: url('../images/icon_wifi.png');
+}
+
+.img_pet{
+    list-style-image: url('../images/icon_pets.png');
 }
 
 .reviews ul li h3 {
