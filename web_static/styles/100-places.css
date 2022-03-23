@@ -101,23 +101,32 @@
     padding-bottom: 10px;
 }
 
-.places > .amenities > ul, .reviews > ul{
+.amenities > ul, .reviews > ul{
     list-style-type: none;
+}
+
+.img_tv{
+    list-style-image: url('../images/icon_tv.png');
+}
+
+.img_pet{
+    list-style-image: url('../images/icon_pets.png');
+}
+
+.img_wifi{
+    list-style-image: url('../images/icon_wifi.png');
+}
+
+.reviews > ul > li > h3{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.reviews > ul > li > h3 > p{
+    font-size: 12px;
 }
 
 .icon_pets, .icon_tv, .icon_wifi {
     height: 50px;
     width: 50px;
-}
-
-.icon_pets{
-    background: url("../images/icon_pets.png");
-}
-
-.icon_tv{
-    background: url("../images/icon_tv.png");
-}
-
-.icon_wifi{
-    background: url("../images/icon_wifi.png");
 }
